@@ -8,7 +8,7 @@ git clone https://github.com/biel-dev/react_calculator.git
 ```
 #### Em seguida, baixe as dependências
 ```
-npm init
+cd calculadora_react && cd calculadora && npm install
 ```
 #### Então, basta abrir a aplicação no seu navegador, usando:
 ```
