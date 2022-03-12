@@ -1,0 +1,41 @@
+:root {
+    --bg-button: rgb(247, 205, 68);
+}
+
+.button {
+    font-family: 'Montserrat';
+    font-size: 1.4em;
+    background-color: var(--bg-button);
+    border: none;
+    outline: none;
+
+    transition-duration: 0.3s;
+}
+.button:hover {
+    background-color: rgb(240, 175, 35);
+}
+
+.button:active {
+    background-color: #ccc;
+}
+
+.button.double {
+    grid-column: span 2;
+}
+
+.button.triple {
+    grid-column: span 3;
+}
+
+.button.operation {
+    background-color: rgb(241, 117, 45);
+    color: #fff;
+}
+
+.button.operation:active {
+    background-color: #ccc;
+}
+
+.button.operation:hover {
+    background-color: rgb(202, 91, 27);
+}
